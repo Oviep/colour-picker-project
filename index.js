@@ -40,7 +40,7 @@ const colourContainer = document.querySelector("#colour-container")
             console.log(colours.rgb)
              return `
                 <div class="container">
-                   <div class="colour-column" style="background:${colours.rgb.value} "></div><br>
+                   <div class="colour-column" style="background:${colours.rgb.value} "></div>
                    <p class="hex-char">${colours.hex.value}</p>
                 </div> 
            
