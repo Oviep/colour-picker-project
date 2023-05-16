@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+}
+.colour-picker {
+    width:4.187rem;
+    height: 3.125rem;
+    
+}
+
+.colour-id {
+    width: 19.5rem;
+    height: 2.62rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    padding-left: 0.812em;
+}
+
+.colour-btn {
+    width: 7.687rem;
+    height: 2.625rem;
+    padding: 0.825em 1.5em;
+    background: transparent;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.625rem;
+   
+}
+
+.header-container {
+padding-left: 0.875em; 
+padding-top: 1.437em;
+padding-bottom: 1.562em;
+
+
+}
+
+#form-id, .colour-container {
+width: 100%;
+}
+
+#form-id {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.colour-container {
+     display: flex;
+}
+.container, .colour-column {
+    width: 100%;
+}
+.colour-column {
+   height: 80vh;
+}
+
+.hex-char {
+    text-align: center;
+}
+
+
+
+

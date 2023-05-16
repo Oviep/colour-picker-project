@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:wght@900&family=Poppins:wght@600&family=Roboto:wght@700&family=Smythe&family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Colour Picker</title>
+</head>
+<body>
+    <header class="header-container">
+       <h1><span>Ovie's Colour Picker</span> </h1>
+        <form id="form-id">
+             <input type="color" id="colour-picker" class="colour-picker">
+           
+            <select name="colours" id="colour-id" class="colour-id">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-Dark</option>
+                <option value="monochrome-light">Monochrome-Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+            </select>
+             <button id="colour-btn" class="colour-btn"> Get Colour Scheme</button>
+      </form>
+      
+    </header>
+     
+    
+    <div id="colour-container" class="colour-container">
+        <!-- colours picked are mapped here -->
+      
+    </div>
+
+  <script src="index.js"></script>
+  </script>  
+</body>
+</html>
